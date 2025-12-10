@@ -28,7 +28,8 @@ const LandingPage = () => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* AJOUTEZ la propriété basename ici 👇 */}
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<LandingPage />} />
         </Routes>
