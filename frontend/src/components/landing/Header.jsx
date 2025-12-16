@@ -57,7 +57,7 @@ const Header = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
             <motion.a
-              href="https://github.com/Yahya-hacker/Aegis_agent"
+              href="https://github.com/Yahya-hacker/Aegis-agent"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0 }}
@@ -108,7 +108,7 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="https://github.com/Yahya-hacker/Aegis_agent"
+                href="https://github.com/Yahya-hacker/Aegis-agent"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/60 hover:text-white font-mono text-sm py-2"

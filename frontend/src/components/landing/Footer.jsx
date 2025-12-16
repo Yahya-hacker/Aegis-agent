@@ -38,7 +38,7 @@ const Footer = () => {
               Neuro-Symbolic Architecture for comprehensive security assessment.
             </p>
             <a
-              href="https://github.com/Yahya-hacker/Aegis_agent"
+              href="https://github.com/Yahya-hacker/Aegis-agent"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/20 hover:border-[#9C27B0] hover:bg-[#9C27B0]/10 transition-all duration-300 font-mono text-sm text-white"
