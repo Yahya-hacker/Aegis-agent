@@ -104,7 +104,7 @@ const TerminalSection = () => {
             <div className="terminal-dot" style={{ backgroundColor: '#F44336' }} />
             <div className="terminal-dot" style={{ backgroundColor: '#FFC107' }} />
             <div className="terminal-dot" style={{ backgroundColor: '#4CAF50' }} />
-            <span className="ml-4 text-white/50 font-mono text-sm">aegis-agent-v8.0</span>
+            <span className="ml-4 text-white/50 font-mono text-sm">aegis-agent-v8.1</span>
             <div className="ml-auto flex gap-2">
               <button 
                 onClick={togglePlay}

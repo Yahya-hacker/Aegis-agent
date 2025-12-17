@@ -7,8 +7,8 @@ const Footer = () => {
 
   const docLinks = [
     { name: 'MULTI_LLM_GUIDE.md', href: '#' },
-    { name: 'V7_5_FEATURES.md', href: '#' },
-    { name: 'API Documentation', href: '#' },
+    { name: 'V8_1_FEATURES.md', href: '#' },
+    { name: 'OMEGA_PROTOCOL.md', href: '#' },
     { name: 'Installation Guide', href: '#' },
   ];
 
@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-white font-mono">AEGIS AGENT</span>
-                <span className="text-xs text-[#9C27B0] font-mono">v8.0 — Full-Spectrum Cyber Operations</span>
+                <span className="text-xs text-[#9C27B0] font-mono">v8.1 — State-of-the-Art Autonomous Agent</span>
               </div>
             </motion.div>
             <p className="text-white/50 text-sm max-w-md mb-6">
@@ -76,8 +76,10 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 { name: 'Capabilities', href: '#capabilities' },
+                { name: 'Omega Protocol', href: '#omega' },
                 { name: 'Architecture', href: '#architecture' },
                 { name: 'Features', href: '#features' },
+                { name: 'vs XBOW', href: '#comparison' },
                 { name: 'Demo', href: '#demo' },
               ].map((link) => (
                 <li key={link.name}>
@@ -122,7 +124,7 @@ const Footer = () => {
               <span className="w-2 h-2 bg-[#4CAF50] rounded-full animate-pulse" />
               System Operational
             </span>
-            <span>v8.0.0</span>
+            <span>v8.1.0</span>
           </div>
         </div>
       </div>

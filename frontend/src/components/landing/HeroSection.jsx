@@ -24,7 +24,7 @@ const HeroSection = () => {
               className="inline-flex items-center gap-2 px-4 py-2 bg-[#9C27B0]/10 border border-[#9C27B0]/30 mb-6"
             >
               <span className="w-2 h-2 bg-[#4CAF50] rounded-full animate-pulse" />
-              <span className="text-[#9C27B0] font-mono text-sm">SYSTEM ONLINE — v8.0 STABLE</span>
+              <span className="text-[#9C27B0] font-mono text-sm">SYSTEM ONLINE — v8.1 STABLE</span>
             </motion.div>
 
             <motion.h1
@@ -33,9 +33,9 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight font-mono"
             >
-              Aegis Agent v8.0
+              Aegis Agent v8.1
               <br />
-              <span className="gradient-text">Full-Spectrum Cyber Operations</span>
+              <span className="gradient-text">State-of-the-Art Autonomous Agent</span>
             </motion.h1>
 
             <motion.p
@@ -44,8 +44,8 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-white/70 mb-8 max-w-2xl leading-relaxed"
             >
-              From vulnerability scanning to autonomous zero-day research. Powered by a 
-              <span className="text-[#9C27B0] font-semibold"> Multi-LLM Neuro-Symbolic Architecture</span>.
+              From vulnerability scanning to autonomous zero-day research. Powered by 
+              <span className="text-[#9C27B0] font-semibold"> Omega Protocol</span> — a Neuro-Symbolic Swarm System with Graph-Native reasoning and Adversarial Debate.
             </motion.p>
 
             {/* Stats */}
@@ -56,9 +56,9 @@ const HeroSection = () => {
               className="flex flex-wrap gap-8 mb-10"
             >
               {[
-                { icon: Cpu, label: '4 Specialized LLMs', value: 'Multi-Agent' },
-                { icon: Network, label: 'Graph Memory', value: 'Cortex Engine' },
-                { icon: Eye, label: 'Visual Analysis', value: 'Set-of-Mark' },
+                { icon: Cpu, label: 'Omega Protocol', value: 'Neuro-Symbolic' },
+                { icon: Network, label: 'Graph Memory', value: 'KTV Loop' },
+                { icon: Eye, label: 'Red/Blue/Judge', value: 'Swarm Debate' },
               ].map((stat, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="p-2 bg-[#9C27B0]/10 border border-[#9C27B0]/30">

@@ -8,8 +8,10 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Capabilities', href: '#capabilities' },
+    { name: 'Omega Protocol', href: '#omega' },
     { name: 'Architecture', href: '#architecture' },
     { name: 'Features', href: '#features' },
+    { name: 'vs XBOW', href: '#comparison' },
     { name: 'Demo', href: '#demo' },
   ];
 
@@ -34,7 +36,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-white font-mono">AEGIS</span>
-              <span className="text-xs text-[#9C27B0] font-mono">AGENT v8.0</span>
+              <span className="text-xs text-[#9C27B0] font-mono">AGENT v8.1</span>
             </div>
           </motion.a>
 

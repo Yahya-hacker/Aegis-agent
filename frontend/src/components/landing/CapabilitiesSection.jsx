@@ -62,7 +62,7 @@ const CapabilitiesSection = () => {
             Five Specialized Domains
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">
-            Aegis v8.0 operates across five specialized security domains, each powered by dedicated analysis engines and AI models.
+            Aegis v8.1 operates across five specialized security domains, each powered by dedicated analysis engines and AI models.
           </p>
         </motion.div>
 
