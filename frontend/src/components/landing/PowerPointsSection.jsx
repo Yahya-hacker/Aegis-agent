@@ -15,7 +15,7 @@ const powerPoints = [
     icon: GitBranch,
     title: 'Self-Healing Warfare',
     tagline: 'Adaptive Bypass Generation',
-    description: 'If an exploit is blocked by a WAF, the agent doesn\'t just fail. The Tree of Thoughts Debugger analyzes WHY it was blocked and proposes a bypass (e.g., changing encoding).',
+    description: 'If an exploit is blocked by a WAF, the agent does not just fail. The Tree of Thoughts Debugger analyzes WHY it was blocked and proposes a bypass (e.g., changing encoding).',
     color: '#F44336',
     details: ['WAF detection analysis', 'Encoding mutation', 'Payload obfuscation', 'Retry strategies']
   },
@@ -31,7 +31,7 @@ const powerPoints = [
     icon: Database,
     title: 'Graph Memory',
     tagline: 'Knowledge Graph Intelligence',
-    description: 'It doesn\'t just "remember" text — it builds a Knowledge Graph of the target\'s infrastructure, finding complex attack paths that require connecting dots A to B to C.',
+    description: 'It does not just "remember" text — it builds a Knowledge Graph of the target\'s infrastructure, finding complex attack paths that require connecting dots A to B to C.',
     color: '#9C27B0',
     details: ['Infrastructure mapping', 'Attack path discovery', 'Relationship tracking', 'Pattern recognition']
   },

@@ -24,7 +24,7 @@ const cognitiveFeatures = [
     title: 'Pre-Execution Auditor',
     subtitle: 'Safety Layer',
     phases: ['Dangerous Syntax Check', 'Circular Logic Detection', 'Impact Assessment'],
-    description: 'Reviews every command for dangerous patterns (rm -rf) or circular logic before execution.',
+    description: 'Reviews every command for dangerous patterns or circular logic before execution.',
     color: '#F44336',
   },
 ];
